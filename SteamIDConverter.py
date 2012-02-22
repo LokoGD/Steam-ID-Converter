@@ -60,7 +60,7 @@ if __name__ == "__main__":
 	else:
 		# assuming valid custom url
 		customURL = userInput
-		communityID = int(convertCustomURLToCommunityID(customURL))
+		communityID = convertCustomURLToCommunityID(customURL)
 		steamID = convertCommunityIDToSteamID(communityID)
 	print "Custom URL:", customURL
 	print "Community ID:", communityID
